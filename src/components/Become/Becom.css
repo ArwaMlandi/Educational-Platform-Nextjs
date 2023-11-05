@@ -1,0 +1,137 @@
+.become {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 40px;
+  background-color: rgb(227, 227, 233);
+  height: 400px;
+}
+
+.become-left {
+  flex: 1;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.become-right {
+  flex: 1;
+}
+.become-right > :nth-child(1) {
+  position: absolute;
+  width: 23rem;
+  height: 25rem;
+  border: 2px solid rgb(70, 202, 255);
+  right: 12rem;
+  top: -2rem;
+}
+
+.becom-right-img {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -20px;
+}
+
+.become-left h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(56, 142, 253);
+}
+
+.become-left p {
+  font-size: 16px;
+  width: 60%;
+}
+.becom-ul {
+  padding: 0px;
+  margin: 0px;
+  line-height: 29px;
+}
+.becom-li {
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(56, 142, 253);
+}
+.becom-li span {
+  margin-left: 8px;
+  color: black;
+  font-size: 15px;
+}
+.becom-button {
+  background-color: #003cff;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #003cff;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.becom-button:hover {
+  background-color: white;
+  color: #003cff;
+}
+
+@media screen and (max-width: 766px) {
+  .become {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    height: 700px;
+  }
+  .become-left {
+    margin-left: 10px;
+  }
+  .become-right > :nth-child(1) {
+    position: absolute;
+    width: 13rem;
+    height: 15rem;
+    border: 2px solid rgb(70, 202, 255);
+    right: 1rem;
+    top: 26rem;
+  }
+  .become-right img {
+    width: 100%;
+    width: 13rem;
+    height: 15rem;
+    position: absolute;
+    top: 27rem;
+    right: 2rem;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .become {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    height: 500px;
+  }
+  .become-left {
+    margin-left: 10px;
+  }
+  .become-right > :nth-child(1) {
+    position: absolute;
+    width: 13rem;
+    height: 15rem;
+    border: 2px solid rgb(70, 202, 255);
+    left: 30rem;
+    top: 10rem;
+  }
+  .become-right img {
+    width: 100%;
+    width: 13rem;
+    height: 15rem;
+    position: absolute;
+    left: 29rem;
+    top: 11rem;
+  }
+}

@@ -1,0 +1,35 @@
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+
+  background-color: white;
+}
+.price-container-h3 {
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: rgb(56, 142, 253);
+}
+.price-card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.price-title {
+  font-size: 25px;
+  color: #003cff;
+  margin: 0px;
+}
+.price-price {
+  font-size: 25px;
+  color: #003cff;
+}
+.price-priceSpan {
+  color: rgb(192, 185, 185);
+}
+

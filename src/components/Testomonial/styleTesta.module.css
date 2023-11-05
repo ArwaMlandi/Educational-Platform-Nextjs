@@ -1,0 +1,61 @@
+.containerTesta{
+  background-color:  rgb(227, 227, 233);
+  height: 500px;
+
+
+  
+}
+.testiBox {
+  text-align: center;
+  padding: 40px 20px;
+  background-color:  rgb(227, 227, 233);
+ 
+  width: 324px !important;
+  height:  449px;
+  margin: auto;
+  border-radius: 5px;
+
+}
+
+.testiBox:hover {
+  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+
+.testiBox q {
+  display: block;
+  margin-bottom: 20px;
+}
+.testiBox .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testiBox .image img {
+  width: 100px;
+ height: 100px;
+ border-radius: 50%;
+
+}
+.testi-box h3 {
+  color: var(--main-color);
+  font-size: 18px;
+  margin-top: 20px;
+}
+.testiBox p {
+  font-size: 14px;
+}
+
+.testiContent .slick-dots li.slick-active button:before {
+  color: black!important;
+}
+
+.testiContent ul.slick-dots {
+  bottom: -40px;
+}
+
+.testiContent .slick-arrow.slick-prev{
+  left: 25px;
+}
+.testiContent .slick-arrow.slick-next{
+  right: 25px;
+}

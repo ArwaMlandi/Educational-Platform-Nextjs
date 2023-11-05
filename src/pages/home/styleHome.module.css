@@ -1,0 +1,194 @@
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 240px;
+    left: 340px;
+    color: white;
+  }
+  
+  .homeButton {
+    background-color: rgb(70, 202, 255);
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .homeButton:hover {
+    background-color: white;
+    color: rgb(70, 202, 255);
+  }
+  
+  .educat {
+    background-image: url("../../assets/images/img111.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: white;
+  }
+  .educatP {
+    display: flex;
+    width: 50%;
+    text-align-last: center;
+  }
+  .homeAbout {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .homeAboutButton {
+    background-color: white;
+    color: #003cff;
+    padding: 10px 20px;
+    border: 1px solid #003cff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  .homeAboutNum {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    width: 40%;
+    margin-top: 10px;
+  }
+  .homeAboutNumP {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeAboutNumspan {
+    color: #003cff;
+    font-size: 20px;
+  }
+  
+  .personTest {
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+    right: 10rem;
+    top: 6rem;
+  }
+  .rightTest > :nth-child(1) {
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    border: 2px solid rgb(70, 202, 255);
+    right: 10rem;
+    top: 5rem;
+  }
+  .rightTest > :nth-child(2) {
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    border: 2px solid rgb(70, 202, 255);
+    right: 8rem;
+    top: 7rem;
+    background-color: rgb(70, 202, 255);
+  }
+  .becomButton {
+    background-color: #003cff;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #003cff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .becomButton:hover {
+    background-color: white;
+    color: #003cff;
+  }
+  @media screen and (max-width: 766px) {
+    .homeContent {
+      position: absolute;
+      top: 440px;
+      left: 18px;
+    }
+    .homeContent h2 {
+      font-size: 17px;
+    }
+    .courseContainer-h2 {
+      letter-spacing: 0px;
+      font-size: 19px;
+    }
+    .courseCard {
+      margin-bottom: 30px;
+      margin-left: 0px;
+    }
+    .educat h2 {
+      font-size: 20px;
+    }
+    .homeAbout {
+      position: relative;
+      height: 470px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .personTest {
+      width: 10rem;
+      height: 10rem;
+      right: 6rem;
+      top: 36rem;
+    }
+    .rightTest > :nth-child(1) {
+      width: 10rem;
+      height: 10rem;
+      right: 6.5rem;
+      top: 35rem;
+    }
+    .rightTest > :nth-child(2) {
+      width: 10rem;
+      height: 10rem;
+      right: 5rem;
+      top: 36.5rem;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 1024px) {
+    .homeContent {
+      position: absolute;
+      top: 240px;
+      left: 150px;
+    }
+    .courseCard {
+      margin-bottom: 30px;
+      margin-left: 20px;
+    }
+    .personTest {
+      width: 15rem;
+      height: 15rem;
+      right: 6rem;
+      top: 13rem;
+    }
+    .rightTest > :nth-child(1) {
+      width: 15rem;
+      height: 15rem;
+      right: 6.5rem;
+      top: 12rem;
+    }
+    .rightTest > :nth-child(2) {
+      width: 15rem;
+      height: 15rem;
+      right: 5rem;
+      top: 13.5rem;
+    }
+  }
+  
